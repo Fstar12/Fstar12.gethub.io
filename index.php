@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<?PHP
+?>
+<script>
+</script>
+<style>
+
+body
+{background-image:url(images/background.jpg);
+background-repeat:no-repeat;
+background-size:1280px 1024px;}
+a:link 
+{
+background-color:#33FFFF;}
+a:hover
+{background-color:#FFCC99;
+}
+a:visited
+{
+background-color:#CCCC33;
+border:#6633FF;}
+</style>
+</head>
+
+<body onload="Banner()">
+<table width="990" height="300" border="10" bordercolor="#0099CC" align="center">
+<tr>
+<td><img src="images/slideshow1.jpg">
+</td>
+</tr>
+</table>
+<table  width="990" height="50"  align="center">
+<tr>
+<td align="center"><font size="5" color="#33FFFF"><a href="index.php">Home</a></font>
+</td>
+<td align="center"><font size="5" color="#33FFFF"><a href="Gallery.php">Gallery</a></font>
+</td>
+<td align="center"><font size="5" color="#33FFFF"><a href="Sign up.php">Sign up</a></font>
+</td>
+<td align="center"><font size="5" color="#33FFFF"><a href="Staff.php">Staff</a></font>
+</td>
+<td align="center" color="#33FFFF"><font size="5" color="#33FFFF">Contact us </font>
+</td>
+<td align="center" color="#33FFFF"><font size="5" color="#33FFFF">
+Booking</font>
+</td>
+</tr>
+</table>
+<table align="center" border="1" width="990" height="500">
+<tr>
+<td><video src="videos/1.mp4" controls width="990" height="500" loop autoplay></video>
+</td>
+</tr>
+</body>
+
+</html>
